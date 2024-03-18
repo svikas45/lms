@@ -1,0 +1,12 @@
+{
+     "123456789": {
+          "title": "abc", 
+          "availability": 1, 
+          "author": "Saivikas"
+     }, 
+     "123": {
+          "title": "mybook", 
+          "availability": 0, 
+          "author": "me"
+     }
+}
