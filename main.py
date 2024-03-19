@@ -20,7 +20,7 @@ def main_menu():
 
     major_choice = int(input("Enter choice: "))
     if major_choice == 1:
-        # this is  Book management page
+        # This is  Book management page
         print("1. Add Book")
         print("2. remove book")
         print("3. update book")
@@ -49,15 +49,13 @@ def main_menu():
         # this is Transactions page
         print("1. Checkout")
         print("2. Checkin")
-        minor_choice = int(input("Enter choice: "))
-    elif major_choice == 4:
-        print("Exiting.")
+        minor_choice = int(input("Enter choice: ")) 
 
     else:
         print("Invalid choice, please try again.")
 
     return [major_choice,minor_choice]
-print("Please give the input in strings")
+
 def main():
     while True:
         data = main_menu()

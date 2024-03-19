@@ -3,8 +3,6 @@
 import user
 
 
-
-
 class checkout_management(user.user_management):
 
     def add_book_to_user(self,user_id,isbn):
@@ -47,3 +45,5 @@ class checkout_management(user.user_management):
         else:
             print("user not found")
             return False
+        
+        
