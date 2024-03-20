@@ -13,7 +13,11 @@ def main_menu():
     major_choice=int()
     minor_choice=int()
     # This is the index page
-    print("\nLibrary Management System")
+    print("\n ''''''''")
+    print("\n Welcome to Library Management System")
+    print("\n ''''''''")
+
+
     print("1. Book Management")
     print("2. User Management")
     print("3. Transactions")
@@ -41,8 +45,8 @@ def main_menu():
         print("4. List User details")
         print("5. List User ID")
         print("6. List User name")
-        print("7. search by User name")
-        print("8. search by User ID")
+        print("7. Search by User name")
+        print("8. Search by User ID")
         print("9. Exit")    
         minor_choice = int(input("Enter choice: "))
     elif major_choice == 3:
@@ -70,7 +74,6 @@ def main():
                 isbn = input("Enter ISBN: ")
                 new_book= book.book_management(isbn, title, author)
                 new_book.add_book()
-                print("Book added.")
             elif choice == 2:
                 isbn = input("Enter ISBN: ")
 

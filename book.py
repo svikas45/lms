@@ -32,7 +32,6 @@ class book_management:
     def add_book(self):
 
         self.books_data=load_json(bookjsonfile)
-        print(self.books_data)
         self.books_data[self.isbn]={"title":str(self.title),"author":str(self.author),"availability":1}
         self.dump_json(self.books_data,bookjsonfile)
         self.books_availability=1
